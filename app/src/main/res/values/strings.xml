@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AnimationLesson</string>
+    <string name="animation_drawable">AnimationDrawable</string>
+    <string name="view_animations">ViewAnimation</string>
+    <string name="object_animations">ObjectAnimations</string>
+    <string name="scene_animations">SceneAnimations</string>
+    <string name="custom_view_animations">CustomViewAnimations</string>
+    <string name="value_animation">ValueAnimation</string>
+</resources>

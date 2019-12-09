@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/animation_drawable"
+        android:layout_width="wrap_content"
+        android:layout_height= "wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/animation_drawable"
+        android:layout_margin="@dimen/default_margin"/>
+
+     <Button
+        android:id="@+id/view_animations"
+        android:layout_width="wrap_content"
+        android:layout_height= "wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/view_animations"/>
+
+     <Button
+        android:id="@+id/value_animation"
+        android:layout_width="wrap_content"
+        android:layout_height= "wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/value_animation"/>
+
+
+
+     <Button
+        android:id="@+id/object_animations"
+        android:layout_width="wrap_content"
+        android:layout_height= "wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/object_animations"
+         android:layout_margin="@dimen/default_margin"/>
+
+    <Button
+        android:id="@+id/custom_view_animations"
+        android:layout_width="wrap_content"
+        android:layout_height= "wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/custom_view_animations"
+        android:layout_margin="@dimen/default_margin"/>
+
+    <Button
+        android:id="@+id/scene_animations"
+        android:layout_width="wrap_content"
+        android:layout_height= "wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/scene_animations"
+         android:layout_margin="@dimen/default_margin"/>
+
+
+
+
+
+
+
+
+
+</LinearLayout>
