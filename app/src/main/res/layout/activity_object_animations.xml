@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AnimationsActivity">
-
+    tools:context=".ObjectAnimations">
 
 
     <ImageView
@@ -13,6 +12,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"
-        app:srcCompat="@drawable/horse0"/>
+        app:srcCompat="@drawable/horse0" />
 
 </FrameLayout>

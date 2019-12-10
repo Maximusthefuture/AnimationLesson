@@ -6,4 +6,10 @@
     <string name="scene_animations">SceneAnimations</string>
     <string name="custom_view_animations">CustomViewAnimations</string>
     <string name="value_animation">ValueAnimation</string>
+    <string name="finance_custom_view">FinanceProgressView</string>
+    <string name="progress_template">%d %%</string>
+    <string name="click_me_button">Нажми на меня</string>
+    <string name="shared_element_transition">SharedElementTransition</string>
+    <string name="button_transition">button</string>
+    <string name="custom_animation_transition">CustomAnimationTranstition</string>
 </resources>

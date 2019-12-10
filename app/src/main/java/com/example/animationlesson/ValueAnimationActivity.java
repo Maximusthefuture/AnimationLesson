@@ -15,7 +15,7 @@ public class ValueAnimationActivity extends AppCompatActivity {
     private static final String TRANSLATE = "TRANSLATE";
     private static final String SCALE = "SCALE";
     private ValueAnimator mAnimator;
-    private boolean mUsePropertyValueHolder;
+    private boolean mUsePropertyValueHolder = false;
     private ImageView imageView;
 
     @Override
@@ -35,10 +35,10 @@ public class ValueAnimationActivity extends AppCompatActivity {
                 @Override
                 public void onAnimationUpdate(ValueAnimator valueAnimator) {
                     int translate = (int) valueAnimator.getAnimatedValue(TRANSLATE);
-                   int alpha = (int) valueAnimator.getAnimatedValue(SCALE);
-                   imageView.setTranslationX(translate);
-                   imageView.setTranslationY(translate);
-                   imageView.setTransitionAlpha(alpha);
+                    int alpha = (int) valueAnimator.getAnimatedValue(SCALE);
+                    imageView.setTranslationX(translate);
+                    imageView.setTranslationY(translate);
+                    imageView.setTransitionAlpha(alpha);
                 }
             });
         } else {
@@ -52,10 +52,14 @@ public class ValueAnimationActivity extends AppCompatActivity {
                 }
             });
         }
-        mUsePropertyValueHolder = false;
-        mAnimator.start();
+//        mAnimator.start();
     }
 
+    @Override
+    protected void onStart() {
+        super.onStart();
+        mAnimator.start();
+    }
 
     @Override
     protected void onDestroy() {

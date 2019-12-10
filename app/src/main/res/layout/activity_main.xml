@@ -5,7 +5,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:layout_gravity="center_horizontal"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    >
 
 
     <Button
@@ -40,13 +41,15 @@
         android:text="@string/object_animations"
          android:layout_margin="@dimen/default_margin"/>
 
+
     <Button
         android:id="@+id/custom_view_animations"
         android:layout_width="wrap_content"
         android:layout_height= "wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="@string/custom_view_animations"
+        android:text="@string/finance_custom_view"
         android:layout_margin="@dimen/default_margin"/>
+
 
     <Button
         android:id="@+id/scene_animations"
@@ -55,6 +58,26 @@
         android:layout_gravity="center_horizontal"
         android:text="@string/scene_animations"
          android:layout_margin="@dimen/default_margin"/>
+
+    <Button
+        android:id="@+id/shared_element_transition"
+        android:layout_width="wrap_content"
+        android:layout_height= "wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/shared_element_transition"
+        android:layout_margin="@dimen/default_margin"
+        android:transitionName="@string/button_transition"
+        />
+
+
+   <Button
+        android:id="@+id/custom_animation_transition"
+        android:layout_width="wrap_content"
+        android:layout_height= "wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/custom_animation_transition"
+        android:layout_margin="@dimen/default_margin"
+        />
 
 
 

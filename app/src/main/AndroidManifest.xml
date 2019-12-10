@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ObjectAnimations"/>
+        <activity android:name=".CustomAnimationTransitionActivity"></activity>
+        <activity android:name=".SharedElementTransitionActivity" />
+        <activity android:name=".SceneAnimationActivity" />
+        <activity android:name=".FinanceProgressActivity" />
+        <activity android:name=".ObjectAnimations" />
         <activity android:name=".ValueAnimationActivity" />
         <activity android:name=".AnimationsActivity" />
         <activity android:name=".ActivityAnimationDrawable" />
